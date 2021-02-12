@@ -1,0 +1,10 @@
+name: MW-Market
+main: com.minewebtr.MineWebMarket
+author: Green
+version: 1.0.1
+api-version: 1.16
+depend: [SmartInvs]
+description: MineWeb site marketini oyuna aktaran eklenti.
+commands:
+  sitemarket:
+    description: Site Marketi

@@ -1,0 +1,105 @@
+Settings:
+  Menu-Size: 3
+  Menu-Title: '&b&lSite Marketi'
+  Credit:
+    Menu-Title: 'Yüklediğiniz Krediler'
+    Gecmis:
+      Item:
+        Item-Name: '&e%tarih%'
+        Item-Lore:
+          - '&7Miktar: %miktar%'
+        Item-Type: 'PAPER'
+        Glow: false
+    Item:
+      Item-Name: '&7Şuanda &a%kredi% &7krediniz bulunuyor'
+      Item-Lore:
+        - '&7daha fazlasını satın almak için;'
+        - '&ahttps://reborncraft.pw/krediyukle'
+      Item-Type: 'LEGACY_EMPTY_MAP'
+      Glow: false
+  Back:
+    Item:
+      Item-Name: '&cGeri Dön'
+      Item-Lore:
+        - '&eAna Menüye Dönmek İçin Tıkla'
+      Item-Type: 'ARROW'
+      Glow: false
+  NoProducts:
+    Item:
+      Item-Name: '&cHiç Ürün Bulunamadı'
+      Item-Lore:
+        - '&cBu kategori içerisinde hiç ürün bulunamadı!'
+      Item-Type: 'REDSTONE'
+      Glow: false
+  Onay-Menu:
+    Onay:
+      Item:
+        Item-Name: '&a&lSatın Al'
+        Item-Lore:
+          - ''
+          - '&aÜrünü satın almak için tıkla.'
+        Item-Type: 'EMERALD_BLOCK'
+        Glow: true
+    Iptal:
+      Item:
+        Item-Name: '&c&lİptal Et'
+        Item-Lore:
+          - ''
+          - '&cİptal etmek için tıkla.'
+        Item-Type: 'REDSTONE_BLOCK'
+        Glow: true
+
+
+
+Categories:
+  vip-paketleri:
+    Menu-Title: 'Kategori: &eVIP Paketleri'
+    Item:
+      Item-Name: '&6&lVIP Paketleri'
+      Item-Lore:
+        - '&7Oyun içerisinde site'
+        - '&7kredisi karşılığında'
+        - '&7satılan özel rütbeler.'
+        - ''
+        - '&eKategoriyi görüntülemek için tıkla.'
+      Item-Type: 'GOLD_BLOCK'
+      Glow: false
+      Slot: 10
+    Products:
+      vip-1:
+        Product-ID: 1
+        Item:
+          Item-Name: '&6&lNormal VIP'
+          Item-Lore:
+            - '&7- Sıra önceliği'
+            - ''
+            - '&eSatın almak için tıklayın.'
+          Item-Type: 'GOLD_BLOCK'
+          Data-Value: 0
+          Amount: 1
+          Glow: false
+          Slot: 10
+      vip-2:
+        Product-ID: 2
+        Item:
+          Item-Name: '&a&lMVIP VIP'
+          Item-Lore:
+            - '&7- Sıra önceliği'
+            - ''
+            - '&aSatın almak için tıklayın.'
+          Item-Type: 'EMERALD_BLOCK'
+          Data-Value: 0
+          Amount: 1
+          Glow: false
+          Slot: 12
+  ozel-paketler:
+    Menu-Title: 'Kategori: &eÖzel Paketler'
+    Item:
+      Item-Name: '&6&lÖzel Paketler'
+      Item-Lore:
+        - '&eKategoriyi görüntülemek için tıkla.'
+      Item-Type: 'DIAMOND_PICKAXE'
+      Data-Value: 3
+      Amount: 1
+      Glow: true
+      Slot: 12
