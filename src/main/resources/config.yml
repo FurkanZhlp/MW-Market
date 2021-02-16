@@ -1,105 +1,104 @@
-Settings:
-  Menu-Size: 3
-  Menu-Title: '&b&lSite Marketi'
-  Credit:
-    Menu-Title: 'Yüklediğiniz Krediler'
-    Gecmis:
-      Item:
-        Item-Name: '&e%tarih%'
-        Item-Lore:
+settings:
+  menu-size: 3
+  menu-title: '&b&lSite Marketi'
+  credit:
+    menu-title: 'Yüklediğiniz Krediler'
+    gecmis:
+      item:
+        item-name: '&e%tarih%'
+        item-lore:
           - '&7Miktar: %miktar%'
-        Item-Type: 'PAPER'
-        Glow: false
-    Item:
-      Item-Name: '&7Şuanda &a%kredi% &7krediniz bulunuyor'
-      Item-Lore:
+        item-Type: 'PAPER'
+        glow: false
+    item:
+      item-name: '&7Şuanda &a%kredi% &7krediniz bulunuyor'
+      item-lore:
         - '&7daha fazlasını satın almak için;'
         - '&ahttps://reborncraft.pw/krediyukle'
-      Item-Type: 'LEGACY_EMPTY_MAP'
-      Glow: false
-  Back:
-    Item:
-      Item-Name: '&cGeri Dön'
-      Item-Lore:
+      item-type: 'LEGACY_EMPTY_MAP'
+      glow: false
+  back:
+    item:
+      item-name: '&cGeri Dön'
+      item-lore:
         - '&eAna Menüye Dönmek İçin Tıkla'
-      Item-Type: 'ARROW'
-      Glow: false
-  NoProducts:
-    Item:
-      Item-Name: '&cHiç Ürün Bulunamadı'
-      Item-Lore:
+      item-type: 'ARROW'
+      glow: false
+  no-products:
+    item:
+      item-name: '&cHiç Ürün Bulunamadı'
+      item-lore:
         - '&cBu kategori içerisinde hiç ürün bulunamadı!'
-      Item-Type: 'REDSTONE'
-      Glow: false
-  Onay-Menu:
-    Onay:
-      Item:
-        Item-Name: '&a&lSatın Al'
-        Item-Lore:
+      item-type: 'REDSTONE'
+      glow: false
+  onay-menu:
+    onay:
+      item:
+        item-name: '&a&lSatın Al'
+        item-lore:
           - ''
           - '&aÜrünü satın almak için tıkla.'
-        Item-Type: 'EMERALD_BLOCK'
-        Glow: true
-    Iptal:
-      Item:
-        Item-Name: '&c&lİptal Et'
-        Item-Lore:
+        item-type: 'EMERALD_BLOCK'
+        glow: true
+    iptal:
+      item:
+        item-name: '&c&lİptal Et'
+        item-lore:
           - ''
           - '&cİptal etmek için tıkla.'
-        Item-Type: 'REDSTONE_BLOCK'
-        Glow: true
+        item-type: 'REDSTONE_BLOCK'
+        glow: true
 
-
-
-Categories:
+categories:
   vip-paketleri:
-    Menu-Title: 'Kategori: &eVIP Paketleri'
-    Item:
-      Item-Name: '&6&lVIP Paketleri'
-      Item-Lore:
+    menu-title: 'Kategori: &eVIP Paketleri'
+    item:
+      item-name: '&6&lVIP Paketleri'
+      item-lore:
         - '&7Oyun içerisinde site'
         - '&7kredisi karşılığında'
         - '&7satılan özel rütbeler.'
         - ''
         - '&eKategoriyi görüntülemek için tıkla.'
-      Item-Type: 'GOLD_BLOCK'
-      Glow: false
-      Slot: 10
-    Products:
+      item-type: 'GOLD_BLOCK'
+      glow: false
+      slot: 10
+    products:
       vip-1:
-        Product-ID: 1
+        product-id: 1
         Item:
-          Item-Name: '&6&lNormal VIP'
-          Item-Lore:
+          item-name: '&6&lNormal VIP'
+          item-lore:
             - '&7- Sıra önceliği'
             - ''
             - '&eSatın almak için tıklayın.'
-          Item-Type: 'GOLD_BLOCK'
-          Data-Value: 0
-          Amount: 1
-          Glow: false
-          Slot: 10
+          item-type: 'GOLD_BLOCK'
+          data-value: 0
+          amount: 1
+          glow: false
+          slot: 10
       vip-2:
-        Product-ID: 2
-        Item:
-          Item-Name: '&a&lMVIP VIP'
-          Item-Lore:
+        product-id: 2
+        item:
+          item-Name: '&a&lMVIP VIP'
+          item-Lore:
             - '&7- Sıra önceliği'
             - ''
             - '&aSatın almak için tıklayın.'
-          Item-Type: 'EMERALD_BLOCK'
-          Data-Value: 0
-          Amount: 1
-          Glow: false
-          Slot: 12
-  ozel-paketler:
-    Menu-Title: 'Kategori: &eÖzel Paketler'
-    Item:
-      Item-Name: '&6&lÖzel Paketler'
-      Item-Lore:
-        - '&eKategoriyi görüntülemek için tıkla.'
-      Item-Type: 'DIAMOND_PICKAXE'
-      Data-Value: 3
-      Amount: 1
-      Glow: true
-      Slot: 12
+          item-Type: 'EMERALD_BLOCK'
+          data-value: 0
+          amount: 1
+          glow: false
+          slot: 12
+
+ozel-paketler:
+  menu-title: 'Kategori: &eÖzel Paketler'
+  item:
+    item-name: '&6&lÖzel Paketler'
+    item-lore:
+      - '&eKategoriyi görüntülemek için tıkla.'
+    item-type: 'DIAMOND_PICKAXE'
+    data-value: 3
+    amount: 1
+    glow: true
+    slot: 12
